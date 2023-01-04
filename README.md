@@ -1,3 +1,4 @@
+# Single SPA with Capacitor
 This is an example of using multiple Angular applications of different versions combined into a single Capacitor application.
 
 There are several folders:
