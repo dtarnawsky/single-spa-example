@@ -21,6 +21,9 @@ npm run prepare
 npx cap run ios
 ```
 
+## About Single SPA
+[Single SPA](https://single-spa.js.org/) is a framework for building Microfrontends. At its core, it is simply using [Import Maps](https://caniuse.com/import-maps) which is a Javascript API allowing the use of `import` to import ES modules in the browser. On top of this Single SPA provides additional features that a single web app that will combine Microfrontends will need.
+
 ## Local development
 It is preferred to only run one app at a time. But if you need to run them all locally, you can do so with the following instructions
 
