@@ -1,6 +1,8 @@
 # Single SPA with Capacitor
 This is an example of using multiple Angular applications of different versions combined into a single Capacitor application.
 
+> Note: This example is based on one by Joel Denning from the Single SPA samples [here](https://single-spa.js.org/docs/examples).
+
 There are several folders:
 - **app1** - This contains an Angular 11 application
 - **app2** - This contains an Angular 9 application
