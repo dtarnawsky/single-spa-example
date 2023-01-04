@@ -1,0 +1,13 @@
+{
+  "name": "root-html-file",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s -l 4200"
+  },  
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.1.0"
+  },
+  "dependencies": {}
+}

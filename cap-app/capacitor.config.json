@@ -1,0 +1,6 @@
+{
+  "appId": "com.single.spa.example",
+  "appName": "cap-app",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

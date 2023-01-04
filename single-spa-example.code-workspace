@@ -1,0 +1,22 @@
+{
+    "folders": [
+      {
+        "path": "app1"
+      },
+      {
+        "path": "app2"
+      },
+      {
+        "path": "navbar"
+      },
+      {
+        "path": "cap-app"
+      },
+      {
+        "path": "root-html-file"
+      }      
+    ],
+    "settings": {
+      "ionic.externalAddress": false
+    }
+  }

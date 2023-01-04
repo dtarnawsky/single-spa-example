@@ -1,0 +1,21 @@
+{
+  "name": "cap-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build-apps && cp index.html dist/index.html && npx cap sync",
+    "build-apps": "cd ../app1 && npm i && npm run build && cd ../app2 && npm i && npm run build && cd ../navbar && npm i && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "4.6.1",
+    "@capacitor/core": "^4.6.1",
+    "@capacitor/ios": "4.6.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^4.6.1"
+  }
+}
